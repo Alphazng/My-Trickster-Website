@@ -1,0 +1,218 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(assets/Image1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.navbar{
+    background: rgba(7, 7, 7, 0.616);
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.nav_box{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 50px;
+
+}
+
+#nav_logo{
+    background-color: white;
+    background-size: 100%;
+    background-clip: text;
+    color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 32px;
+    
+}
+
+.nav_menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+.nav_option{
+    height: 80px;
+}
+.nav_link{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 16px;
+    height: 100%;
+}
+
+.nav_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 16px;
+    width: 100%;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    padding: 10px 20px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: yellow;
+    color: black;
+}
+
+.button:hover{
+    background: rgb(30, 210, 223);
+    transition: 0.5s;
+}
+
+.nav_link:hover{
+    color: rgb(30, 210, 223);
+    transition: 0.5s;
+}
+
+/* .Text{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.Text h1{
+    font-size: 50px;
+}
+
+.Text p{
+    margin: 10px 0 40px;
+    font-size: 20px;
+    color: white;
+}
+
+.signUpBtn{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 13px 30px;
+    font-size: 20px;
+    position: relative;
+    cursor: pointer;
+    border-radius: 100px;
+    background: yellow;
+}
+
+.signUpBtn:hover{
+    background: rgb(30, 210, 223);
+    transition: 0.5s;
+} */
+
+/* Conten Form */
+.signUp_box{
+    width: 330px;
+    padding: 32px 16px;
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+
+}
+
+.signUp_box h1{
+    font-size: 32px; 
+    color: black;
+    margin: 1.2rem;
+}
+
+form input{
+    width: 92%;
+    outline: none;
+    border: 2px solid white;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background: rgba(128, 128, 128, 0.055);
+}
+
+
+#Submit:hover{
+    background-color: rgb(30, 210, 223);
+    transition: 0.5s;
+}
+
+/* #Terms{
+    display: flex;
+    align-items: center;
+    font-size: small;
+}
+#term{
+    margin-right: 10px;
+    text-align: left;
+}
+#terms1{
+    display: flex;
+    align-items: center;
+    font-size: small; 
+} */
+
+
+.term a{
+    text-decoration: none;
+}
+
+/* footer */
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    background-color: rgb(48, 47, 47);
+    border-radius: 6px;
+
+}
+
+.footer h4{
+    margin-top: 20px;
+    color: white;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+.footer p{
+    color: white;
+    font-size: 10px;
+    line-height: 22px;
+    padding: 10px;
+    text-align: center;
+}
